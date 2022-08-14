@@ -85,7 +85,7 @@ end)
 window:CreateListing(
 	"Ray X | DaHood", 
 	"Ray-X is made for dahood, this script is packed with alot of features and is trusted and reliable.",
-	false, --Starred Flase\True
+	true, --Starred Flase\True
 	"Ray X Dahood free keyless",
 function()
 	local old = game:GetService("Players").LocalPlayer.IsInGroup
@@ -144,15 +144,6 @@ window:CreateListing(
 	"Build a boat for treasure BABFT Autofarms Auto quest Redeem all codes Speed Car Fly Teleports Vynixius",
 function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/BABFT"))()
-end)
-
-window:CreateListing(
-	"Proton | BABFT", 
-	"Check out this Roblox Build a Boat Autoafrm GUI Script called Proton that has teleports, boat fly script, autobuy parts, safe builds, walkspeed/jumppower, fly, and much more op features on this authfarm GUI! This OP script Build a Boat Autofarm gui exploit is really good.",
-	true, --Starred Flase\True
-	"Build a boat for treasure BABFT Autofarms Auto quest Redeem all codes Speed Car Fly Teleports Proton",
-function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/S0LDR/lua-shit/master/protonbabft.lua", true))();
 end)
 
 window:CreateListing(
