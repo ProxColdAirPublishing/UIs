@@ -165,10 +165,10 @@ function()
 end)
 
 window:CreateListing(
-	"JSBR | *20+ Games*", 
-	"This roblox script hub includes *20+ Games!* from Pet Sim X To Combat Warriors",
-	false, --Starred Flase\True
-	"JSBR Script Hub [1] Pet Simulator X![2] Combat Warriors[3] Tatakai V.2[4] Demonfall[5] Reaper 2[6] Mad City non-working[7] Da Hood[8] Shindo Life[9] Victory Race[10] Monster Ghoul[11] Project Slayers[12] ZO ぞ SAMURAI[13] Sonic Speed Simulator[14] YouTube Life![15] FNF![16] Easy Obby![17] BedWars![18] Era Of Althea![19] king legacy![20] Bitcoin Miner![21] YBA![22] Ro-Ghoul[23] Dragon Blox![24] Blox Fruit!",
+	"Dahood Aimlock", 
+	"This script is a basic dahood aimlock with no UI. Press [Q] to aimlock",
+	true, --Starred Flase\True
+	"Dahood Aimlock",
 function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZXC09321/my-script/main/Script.txt",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProxColdAirPublishing/UIs/main/ScriptLibrary/Saved/DHaimlock",true))()
 end)
