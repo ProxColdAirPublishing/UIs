@@ -103,7 +103,7 @@ end)
 window:CreateListing(
 	"Project Evo", 
 	"Project Evo provides premium scripts for free, this script may be outdataed, if so join their discord server to get the new script.",
-	false, --Starred Flase\True
+	true, --Starred Flase\True
 	"Project Evo script hub free keyless",
 function()
 	loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
@@ -122,8 +122,62 @@ window:CreateListing(
 	"Faded Silent Aim | DaHood", 
 	"This silent script/aimlock script has tons of changable features that can be tuned to your liking",
 	true, --Starred Flase\True
-	"Funky Friday",
+	"Dahood Faded Silent Aim Free Keyless",
 function()
 _G.HideToggle = "RightShift" -- You can put any keybind
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/FadedLock/main/YesEpic"))() 
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/FadedLock/main/YesEpic"))() 
+end)
+
+window:CreateListing(
+	"BABFT Gui", 
+	"Check out this Roblox Build a Boat for Treasure GUI script that has autofarms, character cheats like walkspeed, or boat fly, teleports, misc features like exploit trolling, kil all, other fun settings like fling, and much more op features on this GUI! This OP BAB script GUI exploit is really good and overpowered.",
+	false, --Starred Flase\True
+	"Build a boat for treasure BABFT Autofarms Auto quest Redeem all codes Speed Car Fly Teleports",
+function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProxColdAirPublishing/UIs/main/ScriptLibrary/Saved/Babft1.lua"))() 
+end)
+
+window:CreateListing(
+	"Vynixius | BABFT", 
+	"Check out this Roblox build a boat script GUI with tons of op features like autofarms, esp, teleports, and even really fun features like build a boat fly! Anyways, I recommend checking out this Roblox script GUI with all these op exploits and to test it out.",
+	false, --Starred Flase\True
+	"Build a boat for treasure BABFT Autofarms Auto quest Redeem all codes Speed Car Fly Teleports Vynixius",
+function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/BABFT"))()
+end)
+
+window:CreateListing(
+	"Proton | BABFT", 
+	"Check out this Roblox Build a Boat Autoafrm GUI Script called Proton that has teleports, boat fly script, autobuy parts, safe builds, walkspeed/jumppower, fly, and much more op features on this authfarm GUI! This OP script Build a Boat Autofarm gui exploit is really good.",
+	true, --Starred Flase\True
+	"Build a boat for treasure BABFT Autofarms Auto quest Redeem all codes Speed Car Fly Teleports Proton",
+function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/S0LDR/lua-shit/master/protonbabft.lua", true))();
+end)
+
+window:CreateListing(
+	"Proton | BABFT", 
+	"Check out this Roblox Build a Boat Autoafrm GUI Script called Proton that has teleports, boat fly script, autobuy parts, safe builds, walkspeed/jumppower, fly, and much more op features on this authfarm GUI! This OP script Build a Boat Autofarm gui exploit is really good.",
+	true, --Starred Flase\True
+	"Build a boat for treasure BABFT Autofarms Auto quest Redeem all codes Speed Car Fly Teleports Proton",
+function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/S0LDR/lua-shit/master/protonbabft.lua", true))();
+end)
+
+window:CreateListing(
+	"Jailbreak | Autofarm", 
+	"This Roblox Jailbreak autofarm script hack has tons of undetected options for it’s autofarms! You can autofarm the bank, jewlery store, and ALL the other jailbreak places with this exploit.",
+	false, --Starred Flase\True
+	"Jailbreak Autorob Killaura Store Status Transfer Safes",
+function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
+end)
+
+window:CreateListing(
+	"JSBR | *20+ Games*", 
+	"This roblox script hub includes *20+ Games!* from Pet Sim X To Combat Warriors",
+	false, --Starred Flase\True
+	"JSBR Script Hub [1] Pet Simulator X![2] Combat Warriors[3] Tatakai V.2[4] Demonfall[5] Reaper 2[6] Mad City non-working[7] Da Hood[8] Shindo Life[9] Victory Race[10] Monster Ghoul[11] Project Slayers[12] ZO ぞ SAMURAI[13] Sonic Speed Simulator[14] YouTube Life![15] FNF![16] Easy Obby![17] BedWars![18] Era Of Althea![19] king legacy![20] Bitcoin Miner![21] YBA![22] Ro-Ghoul[23] Dragon Blox![24] Blox Fruit!",
+function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZXC09321/my-script/main/Script.txt",true))()
 end)
