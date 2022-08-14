@@ -117,3 +117,13 @@ window:CreateListing(
 function()
     loadstring(game:HttpGet("https://paste.ee/r/Wo5Kj"))()
 end)
+
+window:CreateListing(
+	"Faded Silent Aim | DaHood", 
+	"This silent script/aimlock script has tons of changable features that can be tuned to your liking",
+	true, --Starred Flase\True
+	"Funky Friday",
+function()
+_G.HideToggle = "RightShift" -- You can put any keybind
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/FadedLock/main/YesEpic"))() 
+end)
