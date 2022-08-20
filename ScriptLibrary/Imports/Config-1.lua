@@ -101,12 +101,12 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaH
 end)
 
 window:CreateListing(
-	"Project Evo", 
-	"Project Evo provides premium scripts for free, this script may be outdataed, if so join their discord server to get the new script.",
+	"Project Evo V3 | PAID", 
+	"Project Evo provides premium scripts for free, This script is paid ($8.50c AUD).",
 	true, --Starred Flase\True
-	"Project Evo script hub free keyless",
+	"Project Evo script hub paid keyless",
 function()
-	loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+	loadstring(game:HttpGetAsync("https://projectevo.xyz/v3/premium.lua", true))()
 end)
 
 window:CreateListing(
