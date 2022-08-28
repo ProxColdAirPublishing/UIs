@@ -1,3 +1,10 @@
+--[[
+# Patch 2
+[+] - Added new filters in the script library
+[+] - Added one more script in the script library
+[/] - Home does not pop up on execution
+]]
+
 local ScriptExtension = Instance.new("ScreenGui")
 local CmdBar = Instance.new("Frame")
 local Tab = Instance.new("Frame")
@@ -2791,6 +2798,15 @@ local function CWLDKC_fake_script() -- Home.HomeController
 		"Jailbreak Autorob Killaura Store Status Transfer Safes",
 		function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
+		end)
+		
+			CreateListing(
+		"Faded Gird | Dahood", 
+		"This script is uses a grid type UI wil mutltiple overpower functions to gain an advantage over other players.",
+		false, --Starred Flase\True
+		"Dahood Faded Grid Free Keyless",
+		function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/nighter132/Faded/main/YesEpic", true))()
 		end)
 	
 	CreateListing(
