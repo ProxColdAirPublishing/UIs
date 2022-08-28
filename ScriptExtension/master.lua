@@ -1,5 +1,8 @@
 --[[
-# Patch 2
+# Patch 2.1
+[+] - fixed Faded Grid
+
+# patch 2
 [+] - Added new filters in the script library
 [+] - Added one more script in the script library
 [/] - Home does not pop up on execution
@@ -2801,12 +2804,13 @@ local function CWLDKC_fake_script() -- Home.HomeController
 		end)
 		
 			CreateListing(
-		"Faded Gird | Dahood", 
-		"This script is uses a grid type UI wil mutltiple overpower functions to gain an advantage over other players.",
+		"Faded Grid | Dahood", 
+		"This script is uses a grid type UI wil mutltiple overpower functions to gain an advantage over other players. Press G to toggle the UI",
 		false, --Starred Flase\True
 		"Dahood Faded Grid Free Keyless",
 		function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/nighter132/Faded/main/YesEpic", true))()
+			_G.Toggles = "V" -- You can put any keybind
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded-Grid/main/YesEpic", true))()
 		end)
 	
 	CreateListing(
